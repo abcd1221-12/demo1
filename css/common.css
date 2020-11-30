@@ -1,0 +1,924 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,select,option,p,blockquote,th,td{margin:0;padding:0;}
+* {outline: 0 none;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+ul li{list-style: none;}
+a{color:black;outline:0 none;text-decoration: none;cursor:pointer;}
+img{border:0;max-width: 100%;}
+
+body{
+    font-family: Microsoft Yahei, Verdana, "\5FAE\8F6F\96C5\9ED1", Tahoma, "DejaVu Sans", sans-serif;
+    font-size: 14px;
+}
+/* about轮播图 */
+.about_banner_bf{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden; 
+}
+.about_banner_bf .item{
+    width: 100%;
+    height: 100%;
+}
+.about_banner_bf .item img{
+    width: 100%;
+    height: 100%;
+}
+.about_banner_text_pro{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 99;
+    margin-top: -50px;
+}
+.about_banner_text_pro h3{
+    text-align: center;
+    font-size: 71.498px;
+    color: #fff;
+    line-height: 72px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.about_banner_text_pro p{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    line-height: 32px;
+}
+
+/* 二级导航 */
+.second_nav{
+    width: 100%;
+    height: auto;
+}
+.second_nav_list{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.second_nav_list ul{
+    width: 100%;
+    height: auto;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #eee;
+}
+.second_nav_list ul li{
+    float: left;
+    width: auto;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.second_nav_list ul li a{
+    padding-left: 30px;
+    padding-right: 30px;
+    /* border-right: 2px solid #eee; */
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: rgb(102, 102, 102);
+    line-height: 20px;
+    text-align: justify;
+}
+.second_nav_list ul li a:hover{
+    color: #084da3;
+    /* font-size: 18px; */
+    padding-bottom: 14px;
+    border-bottom: 2px solid #084da3;
+}
+/* about_section2 */
+.about_section2{
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f4f9ff;
+}
+.about_section_text{
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+}
+.about_section_text p{
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: rgb(102, 102, 102);
+    line-height: 2.714;
+    text-align: justify;
+}
+.about_section2_list{
+    width: 100%;
+    height: auto;
+}
+.about_section2_list ul{
+    width: 100%;
+    height: auto; 
+}
+.about_section2_list ul li{
+    float: left;
+    width: 12.2%;
+    height: auto;
+    margin: 0 1%;
+    margin-bottom: 2%;
+    background-color: #fff;
+}
+.about_section2_list ul li .pic{
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 8px 1px #eee;
+    display: block;
+}
+.about_section2_list ul li .pic img{
+    display: block;
+    max-width: 180px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+/* about_section3 */
+.about_section3{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.about_section3_list{
+    width: 100%;
+    height: auto;
+}
+.about_section3_list ul{
+    width: 100%;
+    height: auto;
+}
+.about_section3_list ul li{
+    float: left;
+    width: 22%;
+    height: 200px;
+    padding-left: 170px;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.about_section3_list ul li .pic{
+    max-width: 170px;
+    width: 100%;
+    height: auto;
+    /* float: left; */
+    box-sizing: border-box;
+    position: absolute;
+    top: 15px;
+    left: 0px;
+}
+.about_section3_list ul li .pic img{
+    max-width: 170px;
+    width: 100%;
+    height: auto;
+}
+.about_section3_list ul li .text_box{
+    float: left;
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+}
+.about_section3_list ul li .text_box h3{
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.111;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.about_section3_list ul li .text_box p{
+    font-size: 12px;
+    font-family: "Arial";
+    color: rgb(210, 210, 210);
+    line-height: 1.667;
+    text-align: center;
+}
+/* product_list */
+.product_list{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+.product_list ul{
+    width: 100%;
+    height: auto;
+}
+.product_list ul li{
+    width: 48%;
+    max-height: 500px;
+    height: auto;
+    float: left;
+    border: 1px solid #e5e5e5;
+    margin-left: 0.8%;
+    margin-right: 0.8%;
+    margin-bottom: 2%;
+}
+.product_list ul li a{
+    display: block;
+}
+.product_list ul li .pic{
+    display: block;
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.product_list ul li .pic img{
+    width: 100%;
+    height: auto;
+}
+.product_list ul li .text{
+    width: 98%;
+    min-height: 140px;
+    height: auto;
+    box-sizing: border-box;
+    margin-bottom: 0.4%;
+    margin-left: 0.4%;
+    margin-right: 0.4%;
+    background-color: #f9f9f9;
+    padding-top: 2.4%;
+    padding-left: 3.2%;
+}
+.product_list ul li .text .left-text{
+    float: left;
+    box-sizing: border-box;
+    width: 40%;
+    height: auto;
+}
+.product_list ul li .text .left-text a:hover{
+    color: #084da3;
+}
+.product_list ul li .text .left-text h2{
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    color: rgb(51, 51, 51);
+    line-height: 1.667;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.product_list ul li .text .left-text p{
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: rgb(102, 102, 102);
+    line-height: 2.143;
+    text-align: left;
+}
+.product_list ul li .text .right-text{
+    float: right;
+    box-sizing: border-box;
+    width: 30%;
+    height: auto;
+}
+.product_list ul li .text .right-text p{
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: rgb(102, 102, 102);
+    line-height: 2.143;
+    text-align: left;
+}
+.product_list ul li .text .right-text .price{
+    margin-bottom: 20px;
+}
+.product_list ul li .text .right-text span{
+    width: 98%;
+    height: auto;
+    font-size: 43px;
+    font-family: "Bahnschrift";
+    color: rgb(8, 77, 163);
+    line-height: 0.698;
+    text-align: left;
+}
+/* product_intro_section1 */
+.product_intro_section1{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.product_intro_section1_piano{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+.product_intro_section1_piano .right_pic{
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: auto;
+}
+.product_intro_section1_piano .right_pic img{
+    width: 100%;
+    height: auto;
+}
+.product_intro_section1_piano .left-text{
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: auto;
+    padding-left: 60px;
+    padding-top: 30px;
+}
+.product_intro_section1_piano .left-text h2 {
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.667;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .product_intro_section1_piano .left-text p {
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: rgb(102, 102, 102);
+    line-height: 2.143;
+    text-align: left;
+  }
+  .product_intro_section1_piano .left-text .p1{
+      margin-bottom: 40px;
+      width: 100%;
+      height: auto;
+  }
+  .product_intro_section1_piano .left-text .p2{
+    color: rgb(8, 77, 163);
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+  }
+  .product_intro_section1_piano .left-text .p3{
+    margin-bottom: 30px;
+    width: 100%;
+    height: auto;
+}
+  .product_intro_section1_piano .left-text span {
+    font-size: 43px;
+    font-family: "Bahnschrift";
+    color: rgb(8, 77, 163);
+    line-height: 0.698;
+    text-align: left;
+  }
+  .product_intro_section1_piano .left-text .blue{
+    background-color: rgb(8, 77, 163);
+    width: 100%;
+    height: 4px;
+    margin-bottom: 30px;
+}
+/* product_intro_section2 */
+.product_intro_section2{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+.product_intro_section2_text{
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.product_intro_section2_text ul{
+    width: 100%;
+    height: auto;
+}
+.product_intro_section2_text ul li{
+    list-style-type: disc;
+    width: 48%;
+    height: 80px;
+    float: left;
+    margin-bottom: 1.2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    box-sizing: border-box;
+}
+.product_intro_section2_text ul li:nth-of-type(2){
+    float: right;
+}
+.product_intro_section2_text ul li:nth-of-type(4){
+    float: right;
+}
+.product_intro_section2_text ul li:nth-of-type(6){
+    float: right;
+}
+.product_intro_section2_text ul li h2{
+    font-size: 18px;
+    font-family: "Microsoft YaHei UI";
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.222;
+    margin-bottom: 1.2%;
+}
+.product_intro_section2_text ul li p{
+    font-size: 14px;
+    color: #666;
+}
+.product_intro_section2 .pic{
+    width: 100%;
+    height: auto;
+}
+.product_intro_section2 .pic img{
+    width: 100%;
+    height: auto;
+}
+/* product_intro_section3 */
+.product_intro_section3{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+.product_intro_title{
+    width: 100%;
+    height: auto;
+}
+.product_intro_title p{
+    font-size: 18px;
+    font-family: "Microsoft YaHei UI";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.667;
+    text-align: center;
+    padding-bottom: 40px;
+    border-bottom: 4px solid #eee;
+  }
+  
+.product_intro_section3_list{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+table{
+    width: 100%;
+    height: auto;
+    display: inline-table;
+    vertical-align: middle;
+    border: 1px solid #DDD;
+    border-collapse: collapse;
+}
+tr{
+    width: 100%;
+    height: auto;
+    border: 1px solid #333;
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    box-sizing: border-box;
+}
+.td1{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 12px 20px 12px 80px;
+    min-width: 180px;
+    font-size: 16px;
+    color: #FFF;
+    line-height: 30px;
+    border-right: 1px solid #DDD;
+    background: #084DA3;
+    border-bottom: 1px solid #999;
+}
+.td2{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 12px 20px 12px 40px;
+    min-width: 180px;
+    font-size: 16px;
+    color: #333;
+    line-height: 30px;
+    border-right: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+}
+/* art_introduction_section1 */
+.art_introduction_section1{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.art_introduction_section1_text{
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+.art_introduction_section1_text p{
+    font-size: 14px;
+  font-family: "Microsoft YaHei";
+  color: rgb(102, 102, 102);
+  line-height: 2.714;
+  text-align: center;
+}
+.art_introduction_section1 .pic{
+    max-width: 1100px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.art_introduction_section1 .pic img{
+    max-width: 1100px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+/* art_introduction_section2 */
+.art_introduction_section2{
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #f4f9ff;
+}
+.art_introduction_section2 ul{
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+.art_introduction_section2 ul li{
+    width: 23%;
+    /* height: 240px; */
+    min-height: 230px;
+    height: auto;
+    float: left;
+    background-color: #fff;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1.5%;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+}
+.art_introduction_section2 ul li .pic{
+    width: 50px;
+    height: 66px;
+}
+.art_introduction_section2 ul li .pic img{
+    width: 50px;
+    height: 66px;
+}
+.art_introduction_section2 ul li h2{
+    font-size: 18px;
+  font-family: "Microsoft YaHei";
+  color: rgb(8, 77, 163);
+  font-weight: bold;
+  line-height: 1.222;
+  text-align: justify;
+}
+.art_introduction_section2 ul li h3{
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    color: rgb(153, 153, 153);
+    line-height: 2.5;
+    padding-bottom: 30px;
+} 
+.art_introduction_section2 ul li p{
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    color: rgb(102, 102, 102);
+    line-height: 1.833;
+    text-align: justify;
+}
+/* art_introduction_section3 */
+.art_introduction_section3{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+.art_introduction_title{
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+.art_introduction_title h3{
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    color: rgb(8, 77, 163);
+    font-weight: bold;
+    line-height: 1.222;
+    text-align: center;
+}
+.art_introduction_list{
+    width: 100%;
+    height: auto;
+}
+.art_introduction_list ul{
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid #e5e5e5;
+}
+.art_introduction_list ul li{
+    float: left;
+    width: 12%;
+    height: 180px;
+    padding-right: 0.5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    border-right: 1px solid #e5e5e5;
+    box-sizing: border-box;
+}
+.art_introduction_list ul :last-child{
+    /* padding-right: 0px; */
+    border-right: none;
+}
+.art_introduction_list ul li h2{
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.875;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.art_introduction_list ul li .address{
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    color: rgb(102, 102, 102);
+    line-height: 2.5;
+    padding-left: 30px;
+    background: url('../images/art_introduction_dz.png') no-repeat left top;
+
+}
+.art_introduction_list ul li .tel{
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    color: rgb(102, 102, 102);
+    line-height: 2.5;
+    padding-left: 30px;
+    background: url('../images/art_introduction_phone.png') no-repeat left top;
+
+}
+/* art_introduction_section4 */
+.art_introduction_section4{
+    width: 100%;
+    height: auto;
+    background-color: #f4f9ff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.art_introduction_section4_title{
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+.art_introduction_section4_title h3{
+    font-size: 28px;
+    font-family: "Microsoft YaHei";
+    color: rgb(8, 77, 163);
+    line-height: 1.071;
+    text-align: center;
+}
+.art_introduction_section4_title p{
+    font-size: 12px;
+    font-family: "Microsoft YaHei";
+    color: rgb(153, 153, 153);
+    line-height: 2.5;
+    text-align: center;
+}
+.art_introduction_section4_text{
+    width: 100%;
+    height: auto;
+    margin-bottom: 60px;
+}
+.art_introduction_section4_text p{
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: rgb(102, 102, 102);
+    line-height: 2.714;
+    text-align: center;
+}
+.art_introduction_section4_list{
+    width: 100%;
+    height: auto;
+}
+.art_introduction_section4_list ul{
+    width: 100%;
+    height: auto;
+}
+.art_introduction_section4_list ul li{
+    float: left;
+    width: 48%;
+    min-height: 220px;
+    height: auto;
+    border: 1px solid #e5e5e5;
+    padding-left: 170px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    box-sizing: border-box;
+    position: relative;
+    background-color: #fff;
+}
+.art_introduction_section4_list ul li .left_pic{
+    width: 150px;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.art_introduction_section4_list ul li .left_pic img{
+    width: 150px;
+    height: auto;
+}
+.art_introduction_section4_list ul li .right_text{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    width: 100%;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+}
+.art_introduction_section4_list ul li .right_text h2{
+    font-size: 20px;
+    font-family: "Microsoft YaHei";
+    color: rgb(8, 77, 163);
+    font-weight: bold;
+    line-height: 1.9;
+    text-align: left;
+}
+.art_introduction_section4_list ul li .right_text p{
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: rgb(102, 102, 102);
+    line-height: 2.714;
+    text-align: left;
+}
+
+@media screen and (max-width: 1200px) {
+    .about_banner_text_pro h3{
+        font-size: 36px;
+        line-height: 38px;
+    }
+    .about_banner_text_pro p{
+        font-size: 22px;
+        line-height: 24px;
+    }
+    
+    .about_section3_list ul li{
+        width: 47%;
+    }
+    .art_introduction_list ul li{
+        width: 31.333333%;
+        border-right: none;
+        /* min-height: 160px; */
+    }
+    .art_introduction_section2 ul li{
+        width: 48%;
+        margin-bottom: 20px;
+    }
+    .art_introduction_section4_list ul li{
+        width: 99%;
+        margin-bottom: 20px;
+    }
+    .art_introduction_section4_list ul li .right_text{
+        padding-top: 15px;
+    }
+}
+@media screen and (max-width: 995px) {
+    .product_list ul li .text .right-text span{
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .product_list ul li .text .left-text h2{
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+@media screen and (max-width: 640px){
+    .about_banner_text_pro{
+        margin-top: -30px;
+        height: 60px
+    }
+    .about_banner_text_pro h3{
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .about_banner_text_pro p{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .second_nav_list{
+        margin-top: 0px;
+    }
+    .second_nav_list ul li a{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .about_section2{
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+    .about_section_text{
+        margin-bottom: 30px;
+    }
+    .about_section3{
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+    .about_section3_list ul li{
+        width: 47%;
+        height: auto;
+        box-sizing: border-box;
+        padding-left: 5px;
+        padding-right: 5px;
+
+    }
+    .about_section3_list ul li .pic{
+        width: 120px;
+        height: auto;
+        margin: 0 auto;
+        position: relative;
+        overflow: hidden;
+    }
+    .about_section3_list ul li .text_box{
+        position: relative;
+        padding-top: 30px;
+        padding-left: 0px;
+    }
+    .art_introduction_section1{
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+    .art_introduction_section2{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .art_introduction_section2 ul li{
+        min-height: 250px;
+    }
+    .art_introduction_section2 ul li h3{
+        padding-bottom: 15px;
+    }
+    .art_introduction_section3{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .art_introduction_title{
+        margin-bottom: 30px;
+    }
+    .art_introduction_list ul li{
+        width: 98%;
+        height: auto;
+        border-right: none;
+        margin-bottom: 20px;
+    }
+    .art_introduction_list ul li:nth-of-type(1){
+        margin-top: 20px;
+    }
+    .art_introduction_list ul li h2{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .art_introduction_list ul li p{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .art_introduction_section4{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .art_introduction_section4_list ul li{
+        width: 99%;
+        height: auto;
+        box-sizing: border-box;
+        padding-left: 5px;
+        padding-right: 5px;
+
+    }
+    .art_introduction_section4_list ul li .left_pic{
+        width: 150px;
+        height: auto;
+        position: relative;
+        overflow: hidden;
+    }
+    .art_introduction_section4_list ul li .right_text{
+        position: relative;
+    }
+    .art_introduction_section4_title{
+        margin-bottom: 25px;
+    }
+    .art_introduction_section4_text{
+        margin-bottom: 40px;
+    }
+}
